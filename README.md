@@ -1,10 +1,15 @@
-# Studying projects from "Data Science" course at Yandex.Practicum 
-Each project in numerical order reflects the stages of studying aspects of the Data Scientist profession.
+# Wikishop – TF-IDF text classification
+Study project to practice skills of text preprocessing and solving the problem of text classification
 
-## Table of context
-### Name of each project, Description of each task, Libraries used in project, Results.
-Project  | Description | Libraries | Results
----------|--------- |--------- |---------
-Music of big cities | With the help of the Pandas library and its capabilities, check the data and compare the behavior and preferences of users of two big european cities | Pandas | 
-столбец 2     | выровнен по центру |   $12
-зебра-строки  | прикольные         |    $1
+## Problem statement
+
+Wikishop online store launches a new service. Now users can edit and supplement product descriptions, as in wiki communities. That is, clients offer their edits and comment on the changes of others. The store needs a tool that will search for toxic comments and send them for moderation.
+
+## Goal
+
+Train the model to classify comments into positive and negative. At your disposal is a data set with markup on the toxicity of edits.
+Target quality metric *F1*: at least 0.75.
+
+## Data description
+
+The data is in the file `toxic_comments.csv'. The *text* column in it contains the comment text, and *toxic* is the target attribute.
