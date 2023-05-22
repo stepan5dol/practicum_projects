@@ -1,7 +1,27 @@
 # Studying projects form "Data Science" course at Yandex.Practicum
 
-Each project in numerical order reflects the stages of studying aspects of the Data Scientist profession.
-All projects were based on real data.
+Each project in numerical order reflects the `stages of studying` aspects of the Data Scientist profession.
+
+Most of projects were based on `real data`.
+
+All projects were aimed to train specific skill. `United projects` were needed to train all previously studied material.
 
 
 ## Table of context
+
+№ | Name | Skills | Description | Libraries
+---|---|---|---|---
+1 | [Yandex.Music](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/1.%20Pandas%20) | Pandas | A study of the behavior of Yandex.Music users in two big cities | `pandas`
+2 | [Investigation of the reliability of borrowers](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/2.%20Data%20preprocessing) | Data Preprocessing | Analyze statistics on the solvency of customers of the bank's credit department | `seaborn` `pandas` `matplotlib`
+3 | [Research of ads for the sale of apartments](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/3.%20EDA%20)) | EDA | Based on Yandex service data.Determine the market value of real estate and set parameters that will help track anomalies and fraudulent activity. | `pandas` `seaborn` `matplotlib`
+4 |[Determination of a promising tariff for a telecom company](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/4.%20SDA%20) | SDA | The study of customer behavior, based on a preliminary analysis of tariffs on a small sample of customers, and the identification of the best tariff for a certain category of customers. | `numpy` `seaborn` `pandas` `matplotlib`
+5 | [United Project 1: Computer games store](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/5.%20United%20project%201%3A%20Preprocessing%2C%20EDA%2C%20SDA%20) | DP + EDA + SDA | A study of the sale of games around the world in order to identify patterns that determine the success of the game. | `numpy` `seaborn` `pandas` `matplotlib` `scipy`
+6 | [Recommendation of tariffs](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/6.%20First%20ML%20practice) | ML: RandomForestClassifier, LogisticRegression | Basic classification models trained to analyze customer behavior and offer users a new tariff. | `scikit-learn` `numpy` `seaborn` `pandas` `matplotlib`
+7| [Customer outflow](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/7.%20Full%20ML%20project) | RandomForestClassifier, AUC-ROC, OrdinalEncoder | Building a forecast model for the outflow of customers from the bank. | `pandas` `sklearn` `pandas_profiling`
+8 |[Choosing the location for the well](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/8.%20ML%20in%20Business) | Bootstrap, StandardScaler & MinMaxScaler | Building a machine learning model that will help determine the region where mining will bring the greatest profit. Analysis of possible profits and risks by Bootstrap technique. | `sklearn` `numpy` `scipy` `pandas`
+9| [Recovery of gold from ore](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/9.%20Real%20business%20project%3A%20Industry) |LinearRegression, Ridge, ElasticNet, Bootstrap, CrossValidation, KNNImputer, StandardScaler & MinMaxScaler | Construction of a model that should predict the recovery rate of gold from gold-bearing ore. The model will help optimize production so as not to launch an enterprise with unprofitable characteristics.| `sklearn` `numpy` `scipy` `pandas` `seaborn`
+10 | [Linear Algebra](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/10.%20Work%20with%20matrix%20and%20data%20encryption)| Understanding matrix structure and profitability of vector calculations, matrix multiplication, LaTeX use. | Work with matrics to encypt private data & use it in ML. | `sklearn` `numpy` `scipy` `pandas` `seaborn`
+11 | [Determining car prices](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/11.%20Gradient%20boosting) | RandomizedSearchCV, CatBoostRegressor, LGBMRegressor, XGBoost | Building a model for quickly determining the cost of cars. | `catboost` `lgbm` `xgboost`
+12 | [Forecasting taxi orders](https://github.com/stepan5dol/practicum_projects/tree/9c16f6534252175314ce88929ebb7bf32c7e3c77/12.%20Time%20series) | Time Series (statsmodels.tsa.seasonal) | Building a model for predicting the number of taxi orders for the next hour in order to attract more drivers during peak load. | `statsmodels` `pandas` `catboost` `scikit-learn` `numpy`
+13 | [Wikishop](https://github.com/stepan5dol/practicum_projects/tree/main/13.%20Text%20Classification) | NLP | Building an NLP model to search for toxic comments and submit them for moderation | `pandas` `matplotlib` `numpy` `scikit-learn` `seaborn` `NLTK` `re` `catboost` `xgboost` `lightgbm`
+14 | [Determining the age of buyers](https://github.com/stepan5dol/practicum_projects/tree/3fd1fec8c7d32c4cf146294361318a13ced130ca/14.%20Computer%20vision) | Conmuter Vision (keras, using ResNet50) | Building a model that will determine the age of a person from a photo. | `tensorflow` `keras` `numpy` `pandas` `matplotlib`
